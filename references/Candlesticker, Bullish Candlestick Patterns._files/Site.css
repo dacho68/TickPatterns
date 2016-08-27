@@ -1,0 +1,1776 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+    background: #b6b7bc;
+    font-size:11px;
+    font-family:  Verdana, Arial,   Helvetica,  sans-serif;
+    line-height:150%;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+    
+}
+
+
+
+
+a:link, a:visited
+{
+    color: #034af3;
+    text-decoration  :none;   
+}
+
+
+
+a:hover
+{
+ 
+    text-decoration:none;
+}
+
+a:active
+{
+    color: #034af3;
+    text-decoration:none;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+
+
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+                                     patternname
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+
+
+
+.maincontainer
+{
+
+    background-color:white;
+   
+}
+
+
+
+.headercontainer
+{
+
+    height:112px; 
+    background-color:#006633;
+    min-width:1000px;
+    padding:0px;
+}
+
+
+
+.headerpage
+{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0px;
+}
+
+
+
+
+.logopage
+{
+    float:left;
+    width:230px;
+    padding:0px;
+    height:102px;
+    position:relative; 
+    
+}
+
+
+
+
+.logo
+{
+
+    position:absolute;
+    left:20px;
+    top:34px;
+    padding:0px;
+
+}
+
+
+
+.topbanner
+{
+    float:left;
+    width:730px;
+    height:92px; 
+    margin-top:10px;
+    padding:0px;
+
+}
+
+
+
+
+.mainmenucontainer
+{
+
+
+    background-color:#003300;
+    min-width:1000px;
+    padding:0px;   
+   
+}
+
+
+
+.mainmenupage
+{
+    width:1000px;
+    height:30px; 
+    margin-left:auto;
+    margin-right:auto; 
+    padding:0px;   
+    
+}
+
+
+.mainmenubox
+{
+ 
+    float:left;
+    height:30px;
+    margin-top:auto;
+    margin-bottom:auto;
+    padding:0px; 
+    
+}
+
+
+
+
+.container
+{
+
+    background-color:white;
+    padding:0px;
+    min-width:1000px;
+  
+}
+
+
+.containerpage
+{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:auto;
+
+ 
+}
+
+
+
+.whitebant
+{
+
+    height:15px; 
+    background-color:white;
+    padding:0px;
+    min-width:1000px;
+
+}
+
+
+
+.supportmenucontainer
+{
+
+
+    background-color:#003300;
+    padding:0px;
+    min-width:1000px;
+   
+}
+
+
+
+.supportmenupage
+{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto; 
+    height:30px;
+    padding:0px;
+
+
+  
+}
+
+
+.supportmenubox
+{
+ 
+    float:left;
+    margin-top:auto;
+    margin-bottom:auto;
+    padding:0px; 
+   
+    
+}
+
+
+
+
+
+.footercontainer1
+{
+    background-color: #006C00;
+    min-width: 1000px;
+}
+
+
+
+.footerpage1
+{
+    width:1000px;
+    margin:auto;
+    height:50px;
+    background-color:#006C00;
+    padding-top:18px;    
+
+}
+
+
+
+.languagemenupage
+{
+
+    float:left;
+    height:25px;
+    background-color:#006C00;
+    
+}
+
+
+
+
+.redPanel
+{
+    float: left;
+    height: 120px;
+    width: 120px;
+    color:White;
+    font-size:x-small;
+    font-family:Tahoma, Arial Narrow;
+    line-height:14px;
+    background-image: url('../img/RedNormal.gif');
+ 
+}
+
+
+
+
+.footercontainer3
+{
+    
+    background-color:#003300;
+    min-width:1000px; 
+    
+    
+}
+
+
+
+.footerpage3
+{
+    width:1000px;
+    background-color:#003300;
+    color:White;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:20px;
+    font-size:10px;
+    text-align:justify;
+    overflow:auto;    
+      
+   
+}
+
+
+.footerpage3_zh
+{
+    width:1000px;
+    background-color:#003300;
+    color:White;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:20px;
+    font-size:12px;
+    text-align:justify;
+    overflow:auto;    
+      
+   
+}
+
+
+
+.bottombannercontainer
+{
+
+    min-height:100px; 
+    background-color:#003300;
+    min-width:1000px;  
+    padding:0px;     
+    
+}
+
+
+
+.bottombannerpage
+{
+    width:1000px;
+    background-color:#003300; 
+    margin:auto;
+    min-height:100px;
+    padding:0px;      
+    
+      
+}
+
+
+
+
+
+.patterntop
+{
+   
+    padding-top:20px;
+    background-color:White;
+    color:black;
+    overflow:auto;
+         
+}
+
+
+.patterntop_zh
+{
+   
+    padding-top:20px;
+    background-color:White;
+    color:black;
+    font-size:12px;
+    font-family:  Verdana, Arial,   Helvetica,  sans-serif;
+    overflow:auto;
+         
+}
+
+
+
+.patternbottom
+{
+   
+     
+    background-color:White;
+    color:black;
+    margin-top:10px;
+    overflow:auto;
+      
+}
+
+
+.patternbottomcolumnleft
+{
+   
+    float:left;
+    background-color:White;
+    color:black;
+    width:640px;
+    overflow:auto;
+    line-height:100%;
+         
+}
+
+
+
+.patternbottomparagraph
+{
+   
+    
+    float:left;    
+    width:640px;
+    padding-top:20px; 
+    padding-bottom:10px;  
+    font-size:10px;
+    overflow:auto;
+    
+       
+}
+
+
+.patternbottomparagraph_zh
+{
+   
+    
+    float:left;    
+    width:640px;
+    padding-top:20px; 
+    padding-bottom:10px;  
+    font-size:12px;
+    line-height:150%;
+    overflow:auto;
+    
+       
+}
+
+
+
+
+.pagebody_gen
+{
+    background-color:White;
+    color:black;
+    padding:0px;
+    margin-top:10px;
+    margin-bottom:10px;
+    width:1000px;
+    height:100%;
+    overflow:hidden;
+        
+}
+
+
+
+
+.pagebody_gen_left
+{
+    float: left;
+    background-color: white;
+    color: black;
+    width: 825px;
+    min-height:700px;
+    overflow: auto;
+ 
+}
+
+
+
+
+
+.chartcolumn
+{
+   
+    float:left;
+    background-color:White;
+    color:black;
+    width:350px;
+    overflow:auto;
+
+}
+
+
+
+
+
+.chartbox
+{
+   
+    float:left;
+    background-color:white;
+    color:black;
+    width:340px;
+    height:310px;
+    position:relative;
+  
+            
+}
+
+
+.chartcopyright
+{
+   
+    float:left;
+    background-color:transparent;
+    color:black;
+    width:340px;
+    height:300px;
+    position:absolute;
+    top:0px;
+    left:0px;
+     
+            
+}
+
+
+
+
+
+.statuslisttopline2col1
+{
+    float: left;
+    background-color:white;
+    color: black;
+    width: 260px;
+    padding-left: 0px;
+    text-align:left;
+}
+
+
+
+
+
+.bannerbox
+{
+   
+    float:left;
+    background-color:white;
+    color:black;
+    width:340px;
+    height:auto;
+    margin-top:20px;
+          
+}
+
+
+
+
+.bannerboxright
+{
+   
+    float:right;
+    color:black;
+    width:336px;
+    height:286px;
+    margin-left:20px;
+          
+}
+
+
+
+
+.tableinfo
+{
+   
+    float:left;
+    overflow:auto;
+    text-align:justify;
+    font-size:10px;
+    font-family:  Verdana, Arial,   Helvetica,  sans-serif;
+    line-height:120%;
+    min-height:0px;
+    background-color:white;
+    color:black;
+    width:335px;
+    margin-top:0px;
+          
+}
+
+
+
+.tableinfo_zh
+{
+   
+    float:left;
+    overflow:auto;
+    text-align:justify;
+    font-size:12px;
+    font-family:  Verdana, Arial,   Helvetica,  sans-serif;
+    line-height:150%;
+    min-height:0px;
+    background-color:white;
+    color:black;
+    width:335px;
+    margin-top:0px;
+          
+}
+
+
+
+
+.bannerboxsmall
+{
+   
+    float:left;
+    background-color:white;
+    color:black;
+    width:340px;
+    margin-top:10px;
+          
+}
+
+
+
+
+
+.bannerboxstrip
+{
+   
+ 
+    background-color:white;
+    width:470px;
+    height:62px;
+    margin-left:auto;
+    margin-right:auto;
+    
+          
+}
+
+
+
+
+
+
+
+
+
+.descriptioncolumn
+{
+   
+
+    float:right;
+    color:black;
+    width:640px;
+    background-color:white;
+    
+
+         
+}
+
+
+
+
+.patternname
+{
+   
+
+    font-size:large;
+    font-family:Arial Narrow;
+    color:#D2691E;
+    font-weight:bold;
+    padding-bottom:20px;
+      
+}
+
+
+.patternname_zh
+{
+    font-size: xx-large;
+    font-family: Arial Narrow;
+    color: #D2691E;
+    font-weight: bold;
+    margin-top:10px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+.divisionheader
+{
+
+    font-weight:bold;
+             
+   
+}
+
+.divisionheader_zh
+{
+
+    font-weight:bold;
+    font-size:12px;
+    font-family:  Verdana, Arial,   Helvetica,  sans-serif;             
+   
+}
+
+
+.divisiontext
+{
+   
+    overflow:auto;
+    text-align:justify; 
+    padding-top:10px;
+    padding-bottom:20px;  
+    min-height:0px;
+    font-size:11px;
+    font-family:  Verdana, Arial,   Helvetica,  sans-serif;
+    line-height:150%;
+     
+    
+}
+
+
+
+.divisiontext_zh
+{
+   
+    overflow:auto;
+    text-align:justify; 
+    padding-top:10px;
+    padding-bottom:20px;  
+    min-height:0px;
+    font-size:12px;
+    font-family:  Verdana, Arial,   Helvetica,  sans-serif;
+    line-height:150%;
+     
+    
+}
+
+
+
+
+
+
+
+.candlestickinroductionchartcolumn
+{
+    float: left;
+    background-color: white;
+    color: black;
+    width: 242px;
+    height: 284px;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: Black;
+    background-image: url('../img/Candlestick.gif');
+    background-repeat: no-repeat;
+    padding-left:10px;
+}
+
+
+
+.candlestickinroductionchartcolumnline1
+{
+    float: left;
+    height:50px;
+    width:100%;
+    background-color:transparent;
+    margin-top:34px;
+
+}
+
+
+.candlestickinroductionchartcolumnline2
+{
+    float: left;
+    height:50px;
+    width:100px;
+    background-color:transparent;
+    margin-top:46px;
+
+}
+
+
+
+
+
+.candlestickinroductionchartcolumnline3
+{
+    float: left;
+    height:50px;
+    width:100%;
+    background-color:transparent;
+    margin-top:40px;
+    
+}
+
+
+
+.candlestickinroductiondescriptioncolumn
+{
+   
+    
+    float:left;
+    background-color:white;
+    color:black;
+    width:350px;
+    height:284px;
+    border-width:1px 1px 1px 0px;
+    border-style:solid;
+    border-color:Black;
+  
+   
+}
+
+
+
+
+.candlestickinroductiondescriptiondefinition1
+{
+   
+    
+    float:left;
+    background-color:white;
+    color:black;
+    width:350px;
+    height:38px;
+    margin-top:17px;
+ 
+      
+    
+}
+
+
+
+.candlestickinroductiondescriptiondefinition2
+{
+   
+    
+    float:left;
+    background-color:white;
+    color:black;
+    width:350px;
+    height:40px;
+  
+ 
+      
+    
+}
+
+
+.candlestickinroductiondescriptiondefinition3
+{
+   
+    
+    float:left;
+    background-color:white;
+    color:black;
+    width:350px;
+    height:40px;
+    margin-top:28px;
+      
+    
+}
+
+
+.candlestickinroductiondescriptiondefinition4
+{
+   
+    
+    float:left;
+    background-color:white;
+    color:black;
+    width:350px;
+    height:40px;
+    margin-top:35px;
+      
+    
+}
+
+
+.candlestickinroductiondescriptiondefinition5
+{
+   
+    
+    float:left;
+    background-color:white;
+    color:black;
+    width:350px;
+    height:42px;
+ 
+      
+    
+}
+
+
+
+
+
+/* YENI CLASS   
+----------------------------------------------------------*/
+
+
+
+.newpatternofthedaytop
+{
+   
+   
+   
+    float:left;    
+    width:1000px;
+    height:630px;
+    background-color:white;
+    color:Black;
+    padding-top:20px;
+         
+}
+
+
+.newpatternofthedaytopleft
+
+{
+   
+   
+   
+    float:left;    
+    width:190px;
+    height:630px;
+    background-color:white;
+    color:Black;
+
+         
+}
+
+
+.newpatternofthedaytopright
+{
+   
+   
+   
+    float:left;    
+    width:810px;
+    height:630px;
+    background-color:white;
+    color:Black;
+
+         
+}
+
+
+.newlistboxdiv
+{
+   
+   
+   
+    float:left;    
+    width:148px;
+    height:575px;
+    background-color:transparent;
+    color:Black;
+
+         
+}
+
+
+
+.newchartboxdiv
+{
+   
+   
+   
+    float:left;    
+    width:788px;
+    height:575px;
+    color:Black;
+
+         
+}
+
+
+.newchartbox
+{
+   
+   
+   
+    float:left;    
+    width:788px;
+    height:500px;
+    color:Black;
+
+         
+}
+
+.newchartcommentary
+{
+   
+    float:left;    
+    width:740px;
+    height:75px;
+    color:Black;
+    
+}
+
+
+
+
+/* YENI CLASS SON  
+----------------------------------------------------------*/
+
+
+
+
+.patternofthedaytop
+{
+   
+   
+   
+    float:left;    
+    width:1000px;
+    height:630px;
+    background-color:orange;
+    color:Black;
+    overflow:auto;
+    padding-top:10px;
+         
+}
+
+
+
+
+
+.divchartbox
+{
+   
+    float:right;
+    background-color:white;
+    color:black;
+    width:810px;
+    height:630px;
+
+          
+}
+
+
+
+.divlistbox
+{
+   
+   
+   
+    float:left;    
+    width:175px;
+    height:630px;
+    background-color:white;
+ 
+
+         
+}
+
+
+.divchart
+{
+   
+    float:left;
+    background-color:Yellow;
+    color:black;
+    width:700px;
+    height:450px;
+          
+}
+
+
+
+
+.patternofthedaypage
+{
+   
+   
+   
+    float:left;    
+    width:1000px;
+    background-color:white;
+    color:Black;
+    overflow:auto;
+    padding-top:10px;
+         
+}
+
+
+.leftmenucontainer
+{
+   
+   
+   
+    float:left;    
+    width:175px;
+    background-color:white;
+    line-height:50%;
+    overflow:auto;
+
+         
+}
+
+
+.rightmenucontainer
+{
+   
+   
+   
+    float:right;    
+    width:810px;
+    background-color:white;
+    color:Black;
+    overflow:auto;
+
+         
+}
+
+
+
+
+.bigchartbox
+{
+   
+    float:right;
+    background-color:white;
+    color:black;
+    width:810px;
+    margin:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    overflow:auto;
+          
+}
+
+
+
+
+
+
+
+.candlestickofthedayinfobox
+{
+   
+    overflow:auto;
+    float:left;
+    background-color:blue;
+    color:black;
+    width:700px;
+    height:100px;
+    text-align:left; 
+
+          
+}
+
+
+
+
+.candlestickofthedayheader
+{
+
+    font-size:large;
+    font-family:Arial Narrow;
+    font-weight:bold;    
+    padding-bottom:15px;          
+    color:#D2691E;
+}
+
+
+.candlestickoftheday
+{
+
+    text-align:justify;
+    font-size:11px;
+    font-family:  Verdana, Arial,   Helvetica,  sans-serif;
+    line-height:150%;
+    width:768px;
+    margin-left:10px;
+   
+}
+
+
+.candlestickoftheday_zh
+{
+
+    text-align:justify;
+    font-size:12px;
+    font-family:  Verdana, Arial,   Helvetica,  sans-serif;
+    line-height:150%;
+    width:768px;
+    margin-left:10px;
+   
+}
+
+
+
+
+
+
+
+.introduction
+{
+   
+    float:left;    
+    width:810px;
+    font-size:11px;
+    font-family:  Verdana, Arial,   Helvetica,  sans-serif;
+    line-height:150%;    
+    color:Black;
+    overflow:auto;
+          
+}
+
+
+
+.introduction_zh
+{
+   
+    float:left;    
+    width:810px;
+    font-size:12px;
+    font-family:  Verdana, Arial,   Helvetica,  sans-serif;
+    line-height:150%;    
+    color:Black;
+    overflow:auto;
+          
+}
+
+
+
+.introductionheader
+{
+   
+    overflow:auto;
+    padding-top:22px;
+    padding-bottom:0px;
+    font-weight:bold;
+         
+}
+
+
+.introductionparagraph
+{
+    
+
+    padding-top:11px;
+    padding-bottom:0px;
+    text-align:justify;    
+    overflow:auto;
+         
+}
+
+
+
+
+
+
+.tosheader
+{
+   
+    float:left;    
+    width:800px;
+    overflow:auto;
+    padding-top:22px;
+    padding-bottom:0px;
+    font-weight:bold;
+        
+}
+
+
+.tosparagraph
+{
+ 
+    float:left;    
+    width:800px;
+    padding-top:10px;
+    padding-bottom:0px;  
+    text-align:justify;  
+    overflow:auto;
+         
+}
+
+
+.tosparagraphbold
+{
+  
+    float:left;    
+    width:800px;
+    padding-top:11px;
+    padding-bottom:0px;
+    font-weight:bold;  
+    text-align:justify;  
+    overflow:auto;
+  
+         
+}
+
+
+
+
+.GridLink  a:link
+{
+
+    font-size:11px;
+    font-family:Verdana;
+    Color:blue;
+    
+}
+
+
+.GridLink  a:visited
+{
+    font-size:11px;
+    font-family:Verdana;    
+    color :blue;
+     
+}
+
+
+.GridLink a:hover
+{
+    font-size:11px;
+    font-family:Verdana;
+    color:#E17100;
+}
+
+
+
+
+
+.patternlistcolumn
+{
+   
+    float:left;
+    background-color:White;
+    color:black;
+    width:820px;
+    overflow:auto;
+
+}
+
+
+
+
+.chartbutton
+{
+   
+    float:left;
+    background-color:White;
+    color:black;
+    width:100px;
+    height:100px;
+            
+}
+
+
+.towercolumn
+{
+   
+    float:right;
+    background-color:white;
+    color:black;
+    width:170px;
+   
+  
+
+}
+
+
+
+.towerbox
+{
+   
+    float:right;
+    background-color:White;
+    color:black;
+    width:162px;
+    height:622px;
+         
+}
+
+
+
+.towercolumnleft
+{
+   
+    float:left;
+    margin-top:10px;
+    background-color:white;
+    color:black;
+    width:160px;
+   
+  
+
+}
+
+
+
+.towerboxleft
+{
+   
+    float:left;
+    background-color:White;
+    color:black;
+    width:160px;
+    height:620px;
+         
+}
+
+
+
+.patterntable
+
+{
+   
+    float:left;
+    background-color:white;
+    color:black;
+    width:820px;
+    text-decoration:none;
+    font-size:11px;
+    font-family:  Verdana, Arial,   Helvetica,  sans-serif;
+    line-height:150%;   
+    text-align:justify;
+    vertical-align:top;
+  
+           
+}
+
+
+
+.patterntable_zh
+
+{
+   
+    float:left;
+    background-color:white;
+    color:black;
+    width:820px;
+    text-decoration:none;
+    font-size:12px;
+    font-family:  Verdana, Arial,   Helvetica,  sans-serif;
+    line-height:150%;   
+    text-align:justify;
+    vertical-align:top;
+  
+           
+}
+
+
+
+.patterntablecell1
+{
+    padding: 5px;
+    border: 1px solid #D7D700;
+}
+
+
+
+
+
+
+.page
+{
+    width: 960px;
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+    border: 1px solid #496077;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #4b6c9e;
+    width: 100%;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px;
+    min-height: 420px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    background-color:#3a4f63;
+    width:100%;
+}
+
+
+
+
+
+
+
+div.link1
+{
+
+    float:left;
+    margin:0px;
+    color:White;
+}
+
+div.link1 ul
+{
+    list-style: none;
+    float:left;
+    margin:0px;
+    padding: 0px;
+    color:White;
+    font-size:10px;
+}
+
+div.link1 ul li a, div.link1 ul li a:visited
+{
+  
+    float:left;
+    margin:0px;
+    color:White;
+    border-width:0px;
+    display:  block;
+    line-height: 20px;
+    padding: 0px 5px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.link1 ul li a:hover
+{
+    
+    color: yellow;
+    text-decoration:none;
+}
+
+div.link1 ul li a:active
+{
+
+    color: yellow;
+    text-decoration:none;
+}
+
+
+
+
+
+
+div.link2
+{
+
+    float:left;
+    margin:0px;
+    color:Orange;
+}
+
+div.link2 ul
+{
+    list-style: none;
+    float:left;
+    margin:0px;
+    padding: 0px;
+    color:Orange;
+    font-size:10px;
+    font-weight:bold;
+}
+
+div.link2 ul li a, div.link2 ul li a:visited
+{
+  
+    float:left;
+    margin:0px;
+    color:Orange;
+    border-width:0px;
+    display:  block;
+    line-height: 30px;
+    padding: 0px 5px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.link2 ul li a:hover
+{
+    
+    color: yellow;
+    text-decoration:none;
+}
+
+div.link2 ul li a:active
+{
+
+    color: yellow;
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
