@@ -1,1 +1,5 @@
 data/EURUSD15.csv
+src/TickerPatterns/TickerPatterns/obj/*
+src/TickerPatterns/TickerPatterns/bin/*
+src/TickerPatterns/packages/*
+
